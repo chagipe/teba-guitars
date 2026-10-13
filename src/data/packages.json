@@ -1,0 +1,63 @@
+{
+  "packages": [
+    {
+      "id": "basico",
+      "name": "Calibración básica",
+      "price": "TODO_PRECIO",
+      "currency": "PEN",
+      "description": "Altura de cuerdas, alma del mástil e intonación básica.",
+      "features": [
+        "Ajuste de altura de cuerdas (acción)",
+        "Ajuste del alma del mástil",
+        "Revisión de intonación",
+        "Limpieza general"
+      ],
+      "popular": false
+    },
+    {
+      "id": "completo",
+      "name": "Setup completo",
+      "price": "TODO_PRECIO",
+      "currency": "PEN",
+      "description": "Todo lo básico más nivelado de trastes y revisión eléctrica.",
+      "features": [
+        "Todo lo de Calibración básica",
+        "Nivelado y coronado de trastes",
+        "Revisión de electrónica y contactos",
+        "Lubricación de clavijas y puente",
+        "Cambio de cuerdas (cuerdas no incluidas)"
+      ],
+      "popular": true
+    },
+    {
+      "id": "premium",
+      "name": "Restauración premium",
+      "price": "TODO_PRECIO",
+      "currency": "PEN",
+      "description": "Trabajo integral para guitarras con historia.",
+      "features": [
+        "Todo lo de Setup completo",
+        "Reparación de fisuras o daños estructurales",
+        "Retoque de acabado",
+        "Restauración de electrónica antigua",
+        "Informe fotográfico del proceso"
+      ],
+      "popular": false
+    },
+    {
+      "id": "custom",
+      "name": "Guitarra a medida",
+      "price": "TODO_PRECIO",
+      "currency": "PEN",
+      "description": "Diseño y construcción desde cero, contigo en cada decisión.",
+      "features": [
+        "Consulta de diseño y maderas",
+        "Construcción artesanal",
+        "Pruebas de sonido con el luthier",
+        "Acabado personalizado",
+        "Garantía de por vida en mano de obra"
+      ],
+      "popular": false
+    }
+  ]
+}

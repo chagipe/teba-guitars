@@ -1,0 +1,28 @@
+{
+  "works": [
+    {
+      "id": "work-1",
+      "title": "TODO: Título del trabajo 1",
+      "description": "TODO: Descripción breve del trabajo realizado.",
+      "before": "TODO: URL imagen antes (public/works/work-1-before.jpg)",
+      "after": "TODO: URL imagen después (public/works/work-1-after.jpg)",
+      "category": "Calibración"
+    },
+    {
+      "id": "work-2",
+      "title": "TODO: Título del trabajo 2",
+      "description": "TODO: Descripción breve del trabajo realizado.",
+      "before": "TODO: URL imagen antes (public/works/work-2-before.jpg)",
+      "after": "TODO: URL imagen después (public/works/work-2-after.jpg)",
+      "category": "Reparación"
+    },
+    {
+      "id": "work-3",
+      "title": "TODO: Título del trabajo 3",
+      "description": "TODO: Descripción breve del trabajo realizado.",
+      "before": "TODO: URL imagen antes (public/works/work-3-before.jpg)",
+      "after": "TODO: URL imagen después (public/works/work-3-after.jpg)",
+      "category": "Restauración"
+    }
+  ]
+}

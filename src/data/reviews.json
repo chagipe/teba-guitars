@@ -1,0 +1,27 @@
+{
+  "reviews": [
+    {
+      "author": "TODO: Nombre del reseñador 1",
+      "rating": 5,
+      "text": "TODO: reemplazar por reseña real — pega aquí el texto exacto de la reseña de Google.",
+      "date": "TODO: fecha de la reseña",
+      "avatar": null
+    },
+    {
+      "author": "TODO: Nombre del reseñador 2",
+      "rating": 5,
+      "text": "TODO: reemplazar por reseña real — pega aquí el texto exacto de la reseña de Google.",
+      "date": "TODO: fecha de la reseña",
+      "avatar": null
+    },
+    {
+      "author": "TODO: Nombre del reseñador 3",
+      "rating": 5,
+      "text": "TODO: reemplazar por reseña real — pega aquí el texto exacto de la reseña de Google.",
+      "date": "TODO: fecha de la reseña",
+      "avatar": null
+    }
+  ],
+  "googleProfileUrl": "https://share.google/m5Pirg6d2MC5wv6HW",
+  "reviewUrl": "TODO: reemplazar por URL directa de reseña (g.page/r/.../review)"
+}

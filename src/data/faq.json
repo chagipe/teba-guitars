@@ -1,0 +1,28 @@
+{
+  "faqs": [
+    {
+      "question": "¿Cuánto tiempo toma una calibración?",
+      "answer": "Una calibración básica toma entre 1 y 2 días hábiles. Si tu guitarra necesita trabajo adicional de trastes o electrónica, te damos un estimado claro antes de empezar."
+    },
+    {
+      "question": "¿Cada cuánto debo calibrar mi guitarra?",
+      "answer": "Recomendamos una calibración cada 6 a 12 meses, o antes si cambias el calibre de cuerdas, cambia la humedad o notas que la guitarra ya no se siente cómoda."
+    },
+    {
+      "question": "¿Qué cuerdas recomiendan?",
+      "answer": "Depende del estilo y la guitarra. Podemos recomendarte calibre y tipo (níquel, acústicas, etc.) según lo que toques. Si tienes dudas, pregúntanos en la consulta."
+    },
+    {
+      "question": "¿Cómo debo cuidar mi guitarra?",
+      "answer": "Límpiala después de tocar, guárdala en estuche, evita cambios bruscos de temperatura y humedad, y cambia las cuerdas con regularidad. Te damos tips específicos según el acabado de tu instrumento."
+    },
+    {
+      "question": "¿Qué incluye una cotización?",
+      "answer": "Cada cotización detalla los trabajos a realizar, materiales necesarios, tiempo estimado y precio. Si algo cambia durante el proceso, te avisamos antes de proceder."
+    },
+    {
+      "question": "¿Ofrecen garantía en los trabajos?",
+      "answer": "Sí. Todos los trabajos tienen garantía por escrito. El plazo depende del tipo de servicio y lo especificamos en tu cotización."
+    }
+  ]
+}

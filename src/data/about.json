@@ -1,0 +1,9 @@
+{
+  "story": "TODO: Texto real de la historia de Teba Guitars. Cuéntanos cómo empezó el taller, qué te apasiona de la luthería y qué te hace diferente.",
+  "signature": "Teba",
+  "photo": "TODO: URL foto del luthier (public/images/luthier.jpg)",
+  "stats": {
+    "yearsExperience": "TODO: años de experiencia",
+    "guitarsServed": "TODO: guitarras atendidas"
+  }
+}

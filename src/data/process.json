@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "number": "01",
+      "title": "Recepción",
+      "description": "Escuchamos tu caso: qué le pasa a tu guitarra, cómo la usas y qué esperas de ella. Sin compromiso."
+    },
+    {
+      "number": "02",
+      "title": "Diagnóstico",
+      "description": "Revisamos mástil, trastes, electrónica y acabado. Te explicamos qué necesita y por qué, en lenguaje claro."
+    },
+    {
+      "number": "03",
+      "title": "Cotización",
+      "description": "Te damos un presupuesto claro con lo que incluye cada trabajo. Si ajustamos algo, te avisamos antes de empezar."
+    },
+    {
+      "number": "04",
+      "title": "Entrega",
+      "description": "Tu guitarra lista, calibrada y probada. Te contamos cómo mantenerla así de bien."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #17110e;
+  --color-walnut: #2b1d15;
+  --color-paper: #ece3d0;
+  --color-paper2: #ddd1b8;
+  --color-cream: #fbf7ec;
+  --color-brass: #c9a45c;
+  --color-brass-light: #dcb96f;
+  --color-teal: #2e4d49;
+  --color-wine: #6e2a2a;
+
+  --font-serif: "Abril Fatface", Georgia, serif;
+  --font-sans: "Jost", system-ui, sans-serif;
+  --font-hand: "Mrs Saint Delafield", "Segoe Script", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font: 300 18px/1.65 var(--font-sans);
+  color-scheme: dark;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brass);
+  outline-offset: 3px;
+}
+
+/* ---------- Botón con esquinas recortadas (estilo taller) ---------- */
+.clip-notch {
+  clip-path: polygon(0 8%, 3% 0, 97% 4%, 100% 0, 100% 94%, 97% 100%, 3% 96%, 0 100%);
+}
+
+/* ---------- Cinta marquee ---------- */
+@keyframes tape-slide {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.tape-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: tape-slide 28s linear infinite;
+  will-change: transform;
+}
+
+/* ---------- Papel punteado + bordes rasgados ---------- */
+.paper-dots {
+  background-color: var(--color-paper);
+  background-image: radial-gradient(rgba(60, 40, 20, 0.07) 1px, transparent 1.5px);
+  background-size: 7px 7px;
+}
+
+.tear {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 90px;
+  pointer-events: none;
+}
+.tear.t {
+  top: -60px;
+}
+.tear.b {
+  bottom: -60px;
+}
+.tear.rim {
+  background: #faf6ec;
+}
+.tear.face {
+  background: var(--color-paper) radial-gradient(rgba(60, 40, 20, 0.07) 1px, transparent 1.5px) 0 0 / 7px 7px;
+}
+
+/* ---------- Resaltado de títulos (marco recortado) ---------- */
+.hl {
+  display: inline-block;
+  padding: 0.1em 0.55em 0.18em;
+  transform: rotate(-1.2deg);
+  clip-path: polygon(
+    0 12%, 3% 0, 8% 8%, 15% 1%, 23% 9%, 32% 0, 41% 7%, 52% 1%, 63% 8%, 74% 0,
+    85% 7%, 93% 1%, 100% 9%, 98% 38%, 100% 64%, 97% 100%, 88% 92%, 77% 100%,
+    65% 91%, 51% 100%, 39% 93%, 27% 100%, 14% 92%, 5% 100%, 0 88%, 2% 58%
+  );
+}
+
+/* ---------- Cinta adhesiva de las polaroids / tarjetas ---------- */
+.tape-bit {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  width: 84px;
+  height: 26px;
+  margin-left: -42px;
+  background: rgba(201, 164, 92, 0.7);
+  transform: rotate(-3deg);
+}
+
+/* ---------- Barra de progreso ---------- */
+.prog-bar {
+  transform-origin: 0 50%;
+}
+
+/* ---------- Cursor púa ---------- */
+.pick-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.pick-cursor.on {
+  opacity: 0.92;
+}
+.pick-cursor svg {
+  width: 30px;
+  height: 30px;
+  margin: -15px 0 0 -15px;
+  transition: scale 0.25s;
+}
+.pick-cursor.big svg {
+  scale: 1.9;
+}
+
+/* ---------- Accesibilidad: movimiento reducido ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

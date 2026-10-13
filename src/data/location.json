@@ -1,0 +1,17 @@
+{
+  "address": "TODO: Dirección real del taller",
+  "district": "TODO: Distrito",
+  "city": "Lima",
+  "country": "Perú",
+  "mapsEmbedUrl": "TODO: URL de embed de OpenStreetMap o Google Maps",
+  "mapsLink": "TODO: URL de Google Maps para abrir en nueva pestaña",
+  "hours": [
+    { "days": "Lunes a Viernes", "time": "TODO: horario (ej. 10:00 – 19:00)" },
+    { "days": "Sábado", "time": "TODO: horario (ej. 10:00 – 14:00)" },
+    { "days": "Domingo", "time": "Cerrado" }
+  ],
+  "booking": {
+    "provider": "whatsapp",
+    "calcomUrl": "TODO: URL de Cal.com si se usa integración (dejar vacío si es WhatsApp)"
+  }
+}
